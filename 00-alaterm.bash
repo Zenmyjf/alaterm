@@ -1,6 +1,6 @@
 #!/bin/bash
-# Part of the alaterm project, https://github.com/cargocultprog/alaterm/
-# This file is: https://raw.githubusercontent.com/cargocultprog/alaterm/master/00-alaterm.bash
+# Part of the alaterm project, https://github.com/Zenmyjf/alaterm/
+# This file is: https://raw.githubusercontent.com/Zenmyjf/alaterm/master/00-alaterm.bash
 declare versionID=1.0.4 # Enhanced March 11, 2020.
 # Usage within Termux home on selected Android devices:
 # bash alaterm.bash action
@@ -569,7 +569,7 @@ fi
 cd "$pwDir"
 
 ## If necessary, download the component scripts to the current directory:
-export mainurl="https://raw.githubusercontent.com/cargocultprog/alaterm/master"
+export mainurl="https://raw.githubusercontent.com/Zenmyjf/alaterm/master"
 cd "$hereiam"
 echo -e "\e[1;92mDownloading scripts from the alaterm repository at GitHub...\e[0m"
 for nn in 01 02 03 04 05 06 07 08
